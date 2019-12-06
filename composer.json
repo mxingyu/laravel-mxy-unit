@@ -1,0 +1,24 @@
+{
+    "name": "mxy/unit",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mxy",
+            "email": "540474294@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mxy\\Unit\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Mxy\\Unit\\UnitServiceProvide"
+            ]
+        }
+    }
+}
